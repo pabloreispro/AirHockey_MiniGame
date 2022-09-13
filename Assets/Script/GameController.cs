@@ -75,7 +75,7 @@ public class GameController : MonoBehaviour
     }
     public void Load(string scene)
     {
-        Application.LoadLevel(scene);
+        SceneManager.LoadScene("scene");
     }
 }
 
